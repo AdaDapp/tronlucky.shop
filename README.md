@@ -25,7 +25,7 @@ We have the following three innovations:
 ### II. Basic process
 
 Our smart contract is essentially a state machine. As long as the corresponding conditions are triggered, the state changes. In other words, if the condition is not met, the state cannot be changed. This is a self-looping system that is not controlled by the developer and is not controlled by the witness. No one can stop its loop or break its loop. The state diagram is as follows:
-
+![state](imgs/state.png)
 
 ### III. Random number generation algorithm
 
@@ -51,7 +51,7 @@ Optimizations for tron network:
 ### IV. Lucky generation algorithm
 
 We use a uniform distribution to generate the lucky one, the probability density is as follows:
-
+![formula](imgs/formula.png)
 
 It is easy to see that the more you invest, the greater the probability of winning.
 
@@ -92,8 +92,7 @@ It is easy to see that the more you invest, the greater the probability of winni
 ### 二、基本流程
 
 我们的智能合约本质上是一个状态机，只要触发相应的条件，状态就会发生变化，换句话说，如果条件没达到，状态就无法改变。这是一个自循环的，不受开发者控制，也不受超级节点控制的系统，任何人都无法打破他的循环，或者破坏他的循环。状态图如下：
-
-[状态图]
+![state](imgs/state.png)
 
 ### 三、随机数生成算法
 
@@ -122,8 +121,7 @@ It is easy to see that the more you invest, the greater the probability of winni
 ### 四、幸运者生成算法
 
 我们使用均匀分布来产生幸运者，概率密度如下：
-
-
+![formula](imgs/formula.png)
 
 容易看出，投入的越多，获奖的概率越大。
 
