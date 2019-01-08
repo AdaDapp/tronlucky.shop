@@ -226,7 +226,7 @@ contract TronLuckyShop {
 
         bytes32 xorResult = 0;
         assembly {
-            xorResult := xor(blockHash, blockHash)
+            xorResult := xor(blockHash, secret)
         }
         return uint256(keccak256(xorResult)); // need keccak256 ?
     }
